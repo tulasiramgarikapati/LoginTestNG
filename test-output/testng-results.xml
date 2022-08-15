@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Blank username and password test passed]]>
+    </line>
+    <line>
+      <![CDATA[Blank username test passed]]>
+    </line>
+    <line>
+      <![CDATA[Blank password test passed]]>
+    </line>
+    <line>
+      <![CDATA[Invalid credentials test passed]]>
+    </line>
+    <line>
+      <![CDATA[Valid credentials test passed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-08-13T22:51:02 BST" name="Suite" finished-at="2022-08-13T22:51:36 BST" duration-ms="33807">
+    <groups>
+    </groups>
+    <test started-at="2022-08-13T22:51:02 BST" name="Test" finished-at="2022-08-13T22:51:36 BST" duration-ms="33807">
+      <class name="tests.LoginTestwithSuiteParams">
+        <test-method signature="runMethod(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTestwithSuiteParams@1e1a0406]" started-at="2022-08-13T22:51:02 BST" name="runMethod" data-provider="x" finished-at="2022-08-13T22:51:10 BST" duration-ms="8019" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://localhost:8080/LoginDev/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[bothblank]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Blank username and password test passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runMethod -->
+        <test-method signature="runMethod(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTestwithSuiteParams@1e1a0406]" started-at="2022-08-13T22:51:10 BST" name="runMethod" data-provider="x" finished-at="2022-08-13T22:51:16 BST" duration-ms="6368" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://localhost:8080/LoginDev/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[tulasi123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[uidblank]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Blank username test passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runMethod -->
+        <test-method signature="runMethod(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTestwithSuiteParams@1e1a0406]" started-at="2022-08-13T22:51:16 BST" name="runMethod" data-provider="x" finished-at="2022-08-13T22:51:23 BST" duration-ms="6566" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://localhost:8080/LoginDev/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tulasi123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[pwdblank]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Blank password test passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runMethod -->
+        <test-method signature="runMethod(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTestwithSuiteParams@1e1a0406]" started-at="2022-08-13T22:51:23 BST" name="runMethod" data-provider="x" finished-at="2022-08-13T22:51:29 BST" duration-ms="6392" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://localhost:8080/LoginDev/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tulasi123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[tulasi123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Invalid credentials test passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runMethod -->
+        <test-method signature="runMethod(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTestwithSuiteParams@1e1a0406]" started-at="2022-08-13T22:51:29 BST" name="runMethod" data-provider="x" finished-at="2022-08-13T22:51:36 BST" duration-ms="6405" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://localhost:8080/LoginDev/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tulasi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[tulasi]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Valid credentials test passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runMethod -->
+      </class> <!-- tests.LoginTestwithSuiteParams -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
